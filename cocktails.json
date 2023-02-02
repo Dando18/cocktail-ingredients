@@ -1,0 +1,383 @@
+{
+    "substitutes": {
+        "Whiskey": ["Rye Whiskey", "Bourbon", "Scotch", "Jack Daniels"],
+        "Vermouth": ["Red Vermouth", "Green Vermouth", "Sweet Vermouth", "Dry Vermouth"],
+        "Gin": ["Dry Gin", "London Dry Gin"],
+        "Bitters": ["Orange Bitters", "Angostura Bitters"],
+        "Rum": ["White Rum"],
+        "Vodka": ["Vodka Citron"],
+        "Tequila": ["Tequila Blanco"],
+        "Cointreau": ["Triple Sec", "Orange Liqueur"],
+        "Simple Syrup": ["Sugar Syrup"],
+        "Egg": ["Egg White"],
+        "Salt": ["Kosher Salt"]
+    },
+    "recipes": [
+        {
+            "name": "Manhattan",
+            "ingredients": [
+                {"name": "Rye Whiskey", "amt": "1 2/3 oz"},
+                {"name": "Red Vermouth", "amt": "2/3 oz"},
+                {"name": "Angostura Bitters", "amt": "1 dash"},
+                {"name": "Maraschino Cherry", "amt": "1", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/2 oz"}
+            ]
+        },
+        {
+            "name": "Whiskey Sour",
+            "ingredients": [
+                {"name": "Bourbon", "amt": "1 2/3 oz"},
+                {"name": "Lemon", "amt": "1/2"},
+                {"name": "Sugar Syrup", "amt": "2/3 oz"},
+                {"name": "Egg", "amt": "1", "garnish": "true"},
+                {"name": "Angostura Bitters", "amt": "1 dash", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/2 oz"}
+            ]
+        },
+        {
+            "name": "Old Fashioned",
+            "ingredients": [
+                {"name": "Sugar", "amt": "1 cube"},
+                {"name": "Rye Whiskey", "amt": "1 1/2 oz"},
+                {"name": "Angostura Bitters", "amt": "2 dashes"},
+                {"name": "Orange Bitters", "amt": "4 dashes"},
+                {"name": "Water", "amt": "1/3 oz"},
+                {"name": "Orange", "amt": "1 peel", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/2 oz"}
+            ]
+        },
+        {
+            "name": "Cosmopolitan",
+            "ingredients": [
+                {"name": "Vodka Citron", "amt": "1 1/3 oz"},
+                {"name": "Cointreau", "amt": "1/2 oz"},
+                {"name": "Lime Juice", "amt": "1/2 oz"},
+                {"name": "Cranberry Juice", "amt": "1 oz"},
+                {"name": "Lime", "amt": "1 slice", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/2 oz"}
+            ]
+        },
+        {
+            "name": "Dry Martini",
+            "ingredients": [
+                {"name": "Gin", "amt": "2 oz"},
+                {"name": "Dry Vermouth", "amt": "1/3 oz"},
+                {"name": "Olive", "amt": "1", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Dirty Martini",
+            "ingredients": [
+                {"name": "Vodka", "amt": "2 oz"},
+                {"name": "Olive Juice", "amt": "1/3 oz"},
+                {"name": "Dry Vermouth", "amt": "1/3 oz"},
+                {"name": "Olive", "amt": "1", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Long Island Iced Tea",
+            "ingredients": [
+                {"name": "Vodka", "amt": "1/2 oz"},
+                {"name": "Tequila Blanco", "amt": "1/2 oz"},
+                {"name": "White Rum", "amt": "1/2 oz"},
+                {"name": "Gin", "amt": "1/2 oz"},
+                {"name": "Cointreau", "amt": "1/2 oz"},
+                {"name": "Lemon Juice", "amt": "1 oz"},
+                {"name": "Sugar Syrup", "amt": "2/3 oz"},
+                {"name": "Cola", "amt": "1/3 oz"},
+                {"name": "Lemon", "amt": "1 slice", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Gin Tonic",
+            "ingredients": [
+                {"name": "Gin", "amt": "1 2/3 oz"},
+                {"name": "Tonic", "amt": "3 1/3 oz"},
+                {"name": "Lime", "amt": "1 wedge", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Whiskey Neat",
+            "ingredients": [
+                {"name": "Whiskey", "amt": "2 oz"}
+            ]
+        },
+        {
+            "name": "Appletini",
+            "ingredients": [
+                {"name": "Vodka", "amt": "1 1/3 oz"},
+                {"name": "Apple Schnapps", "amt": "1/2 oz"},
+                {"name": "Cointreau", "amt": "1/2 oz"},
+                {"name": "Apple", "amt": "1 slice", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Black Russian",
+            "ingredients": [
+                {"name": "Vodka", "amt": "1 2/3 oz"},
+                {"name": "Coffee Liqueur", "amt": "2/3 oz"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Bloody Mary",
+            "ingredients": [
+                {"name": "Vodka", "amt": "1 1/2 oz"},
+                {"name": "Tomato Juice", "amt": "3 oz"},
+                {"name": "Lemon", "amt": "1 quarter"},
+                {"name": "Tabasco", "amt": "1 dash"},
+                {"name": "Worcestershire Sauce", "amt": "2 dashes"},
+                {"name": "Salt", "amt": "1 dash"},
+                {"name": "Black Pepper", "amt": "1 dash"},
+                {"name": "Celery", "amt": "1 stalk", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Boulevardier",
+            "ingredients": [
+                {"name": "Bourbon", "amt": "1 2/3 oz"},
+                {"name": "Red Vermouth", "amt": "1 oz"},
+                {"name": "Campari", "amt": "1 oz"},
+                {"name": "Orange", "amt": "1 peel", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Daiquiri",
+            "ingredients": [
+                {"name": "White Rum", "amt": "2 oz"},
+                {"name": "Lime", "amt": "1 half"},
+                {"name": "Sugar Syrup", "amt": "1/3 oz"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Dark 'n Stormy",
+            "ingredients": [
+                {"name": "Dark Rum", "amt": "2 oz"},
+                {"name": "Ginger Beer", "amt": "3 1/3 oz"},
+                {"name": "Lime", "amt": "1 wedge", "garnish": "true"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Fireball",
+            "ingredients": [
+                {"name": "Rum", "amt": "2 1/2 oz"},
+                {"name": "Goldschlager", "amt": "2 1/2 oz"},
+                {"name": "Tabasco", "amt": "3 dashes"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Hot Toddy",
+            "ingredients": [
+                {"name": "Tea", "amt": "1 cup"},
+                {"name": "Honey", "amt": "1 teaspoon"},
+                {"name": "Whiskey", "amt": "1 1/2 oz"},
+                {"name": "Lemon Juice", "amt": "1 quarter"},
+                {"name": "Water", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Jack and Coke",
+            "ingredients": [
+                {"name": "Jack Daniels", "amt": "1 2/3 oz"},
+                {"name": "Cola", "amt": "5 oz"},
+                {"name": "Ice", "amt": "3 1/3 oz"}
+            ]
+        },
+        {
+            "name": "Irish Coffee",
+            "ingredients": [
+                {"name": "Whiskey", "amt": "1 2/3 oz"},
+                {"name": "Coffee", "amt": "4 oz"},
+                {"name": "Cream", "amt": "1 2/3 oz"},
+                {"name": "Sugar", "amt": "1 tsp"}
+            ]
+        },
+        {
+            "name": "Negroni",
+            "ingredients": [
+                {"name": "Gin", "amt": "1 oz"},
+                {"name": "Campari", "amt": "1 oz"},
+                {"name": "Sweet Vermouth", "amt": "1 oz"},
+                {"name": "Orange", "amt": "1 peel", "garnish": "true"}
+            ]   
+        },
+        {
+            "name": "Tom Collins",
+            "ingredients": [
+                {"name": "Dry Gin", "amt": "2 oz"},
+                {"name": "Lemon Juice", "amt": "1 oz"},
+                {"name": "Simple Syrup", "amt": "1/2 oz"},
+                {"name": "Club Soda", "amt": "top"},
+                {"name": "Lemon Wheel", "amt": "", "garnish": "true"},
+                {"name": "Maraschino Cherry", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Sazerac",
+            "ingredients": [
+                {"name": "Absinthe", "amt": "wash"},
+                {"name": "Sugar", "amt": "1 cube"},
+                {"name": "Water", "amt": "1/2 tsp cold"},
+                {"name": "Peychaud's Bitters", "amt": "3 dashes"},
+                {"name": "Angostura Bitters", "amt": "2 dashes"},
+                {"name": "Rye Whiskey", "amt": "1 1/4 oz"},
+                {"name": "Cognac", "amt": "1 1/4 oz"},
+                {"name": "Lemon", "amt": "1 peel", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Paloma",
+            "ingredients": [
+                {"name": "Tequila", "amt": "2 oz"},
+                {"name": "Lime Juice", "amt": "1/2 oz"},
+                {"name": "Grapefruit Soda", "amt": "Top"},
+                {"name": "Lime Wheel", "amt": "", "garnish": "true"},
+                {"name": "Salt", "amt": "Rim", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Moscow Mule",
+            "ingredients": [
+                {"name": "Vodka", "amt": "2 oz"},
+                {"name": "Lime Juice", "amt": "1/2 oz"},
+                {"name": "Ginger Beer", "amt": "3 oz"},
+                {"name": "Lime Wheel", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Sidecar",
+            "ingredients": [
+                {"name": "Cognac", "amt": "1 1/2 oz"},
+                {"name": "Cointreau", "amt": "3/4 oz"},
+                {"name": "Lemon Juice", "amt": "3/4 oz"},
+                {"name": "Orange", "amt": "Twist", "garnish": "true"},
+                {"name": "Sugar", "amt": "Rim", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Martinez",
+            "ingredients": [
+                {"name": "Gin", "amt": "1 1/2 oz"},
+                {"name": "Sweet Vermouth", "amt": "1 1/2 oz"},
+                {"name": "Maraschino Liqueur", "amt": "1/4 oz"},
+                {"name": "Angostura Bitters", "amt": "2 dashes"},
+                {"name": "Orange", "amt": "Twist", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Pimm's Cup",
+            "ingredients": [
+                {"name": "Pimm's No 1", "amt": "2 oz"},
+                {"name": "Lemon Juice", "amt": "1/2 oz"},
+                {"name": "Ginger Ale", "amt": "Top"},
+                {"name": "Cucumber", "amt": "1 slice", "garnish": "true"},
+                {"name": "Mint", "amt": "1 Sprig", "garnish": "true"},
+                {"name": "Strawberry", "amt": "1 whole", "garnish": "true"},
+                {"name": "Lemon Wheel", "amt": "", "garnish": "true"},
+                {"name": "Orange Wheel", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Pisco Sour",
+            "ingredients": [
+                {"name": "Pisco", "amt": "2 oz"},
+                {"name": "Lime Juice", "amt": "1 oz"},
+                {"name": "Simple Syrup", "amt": "1/2 oz"},
+                {"name": "Egg White", "amt": "1"},
+                {"name": "Angostura Bitters", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "French 75",
+            "ingredients": [
+                {"name": "Gin", "amt": "1 oz"},
+                {"name": "Lemon Juice", "amt": "1/2 oz"},
+                {"name": "Simple Syrup", "amt": "1/2 oz"},
+                {"name": "Champagne", "amt": "3 oz"},
+                {"name": "Lemon", "amt": "Twist", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Mint Julep",
+            "ingredients": [
+                {"name": "Mint", "amt": "8 Leaves"},
+                {"name": "Simple Syrup", "amt": "1/4 oz"},
+                {"name": "Bourbon", "amt": "2 oz"},
+                {"name": "Mint", "amt": "1 sprig", "garnish": "true"},
+                {"name": "Angostura Bitters", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Last Word",
+            "ingredients": [
+                {"name": "Gin", "amt": "3/4 oz"},
+                {"name": "Green Chartreuse", "amt": "3/4 oz"},
+                {"name": "Maraschino Liqueur", "amt": "3/4 oz"},
+                {"name": "Lime Juice", "amt": "3/4 oz"},
+                {"name": "Brandied Cherry", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Corpse Reviver No. 2",
+            "ingredients": [
+                {"name": "Absinthe", "amt": "wash"},
+                {"name": "Dry Gin", "amt": "3/4 oz"},
+                {"name": "Lillet Blanc", "amt": "3/4 oz"},
+                {"name": "Cointreau", "amt": "3/4 oz"},
+                {"name": "Lemon Juice", "amt": "3/4 oz"}
+            ]
+        },
+        {
+            "name": "Mojito",
+            "ingredients": [
+                {"name": "Mint", "amt": "3 Leaves"},
+                {"name": "Simple Syrup", "amt": "1/2 oz"},
+                {"name": "White Rum", "amt": "2 oz"},
+                {"name": "Lime Juice", "amt": "3/4 oz"},
+                {"name": "Club Soda", "amt": "Top"},
+                {"name": "Mint", "amt": "1 Sprig", "garnish": "true"},
+                {"name": "Lime Wheel", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Gin Fizz",
+            "ingredients": [
+                {"name": "Gin", "amt": "2 oz"},
+                {"name": "Lemon Juice", "amt": "1 oz"},
+                {"name": "Simple Syrup", "amt": "3/4 oz"},
+                {"name": "Egg White", "amt": "1"},
+                {"name": "Club Soda", "amt": "Top"}
+            ]
+        },
+        {
+            "name": "Vodka Gimlet",
+            "ingredients": [
+                {"name": "Vodka", "amt": "2 oz"},
+                {"name": "Lime Juice", "amt": "3/4 oz"},
+                {"name": "Simple Syrup", "amt": "1/2 oz"},
+                {"name": "Lime Wheel", "amt": "", "garnish": "true"}
+            ]
+        },
+        {
+            "name": "Margarita",
+            "ingredients": [
+                {"name": "Tequila Blanco", "amt": "2 oz"},
+                {"name": "Cointreau", "amt": "1/2 oz"},
+                {"name": "Lime Juice", "amt": "1 oz"},
+                {"name": "Agave Syrup", "amt": "1/2 oz"},
+                {"name": "Lime Wheel", "amt": "", "garnish": "true"},
+                {"name": "Kosher Salt", "amt": "Rim", "garnish": "true"}
+            ]
+        }
+    ]
+}

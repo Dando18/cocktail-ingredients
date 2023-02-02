@@ -1,0 +1,5 @@
+*.pyc
+.ipynb_checkpoints
+output.txt
+hotaling_cocktails.csv
+hotaling_cocktails.json
